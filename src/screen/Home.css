@@ -1,0 +1,14 @@
+.showing {
+  visibility: hidden;
+
+}	
+
+.notShowing {
+  visibility: visible;
+}
+
+
+.pressButton {
+  width:50%;
+  height : 100px;
+}

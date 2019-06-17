@@ -1,3 +1,23 @@
+créer un projet se nommant **list-games** grâce à `create-react-app`.
+Dans ce projet tu devras créer 2 composants : `<GameList />` et `<Game />`.
+
+Tu devras récupérer les informations (au format JSON) en appelant l'url suivante: [http://www.campus-bordeaux.ovh:3002/joysticks/api/games](http://www.campus-bordeaux.ovh:3002/joysticks/api/games)
+Tu peux utiliser au choix [Axios](https://github.com/axios/axios) ou [Fetch](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch) pour récupérer les données.
+
+- `<GameList />` devra récupérer les jeux de l'API et devra les afficher via des composants `<Game />`.
+- `<Game />` devra récupérer via des _props_ les informations de chaque jeu (titre, description, image etc...) et les afficher au format de ton choix.
+- Ajoute un bouton `supprimer` au composant `Game` qui permettra de supprimer un jeu au clic
+
+##  Bonus
+
+
+- ajoute un `select` qui liste tous les thémes et qui permet de filtrer la liste affichée.
+- ajoute un bouton `voir la promo` pour chaque jeu et utilise react-router pour afficher l'image `promo` et/ou la vidéo `trailer` sur une page avec une url de type `http://localhost:3000/jeu/promo/5` ou 5 est l'id du jeu selectionné.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
